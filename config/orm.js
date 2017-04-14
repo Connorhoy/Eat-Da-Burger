@@ -8,7 +8,7 @@ var orm = {
 	createTable: function(){
 		var queryString = "CREATE TABLE IF NOT EXISTS burgers (";
 		queryString += "id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,";
-		queryString += "burger_name VARCHAR(50),";
+		queryString += "burger_name VARCHAR(75),";
 		queryString += "devoured BOOLEAN NOT NULL DEFAULT 0,";
 		queryString += "date TIMESTAMP);";
 
